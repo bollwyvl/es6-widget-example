@@ -1,0 +1,4 @@
+{
+  "source": "./src/es6",
+  "destination": "./es6widgetexample/static/es6-widget-example/docs"
+}
