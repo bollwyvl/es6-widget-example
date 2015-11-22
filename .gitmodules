@@ -1,0 +1,3 @@
+[submodule "es6widgetexample/static"]
+	path = es6widgetexample/static
+	url = https://github.com/bollwyvl/es6-widget-example.git
