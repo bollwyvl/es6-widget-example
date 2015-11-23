@@ -2,7 +2,7 @@
 
 function _typeof(obj) { return obj && typeof Symbol !== "undefined" && obj.constructor === Symbol ? "symbol" : typeof obj; }
 
-define(["exports", "jquery", "nbextensions/widgets/widgets/js/widget"], function (exports, _jquery, _widget) {
+define(["exports", "jquery", "nbextensions/widgets/widgets/js/widget", "nbextensions/widgets/widgets/js/manager"], function (exports, _jquery, _widget, _manager) {
   Object.defineProperty(exports, "__esModule", {
     value: true
   });
@@ -89,6 +89,14 @@ define(["exports", "jquery", "nbextensions/widgets/widgets/js/widget"], function
     if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
   }
 
+  var class_map = {
+    primary: ["btn-primary"],
+    success: ["btn-success"],
+    info: ["btn-info"],
+    warning: ["btn-warning"],
+    danger: ["btn-danger"]
+  };
+
   var ES6ExampleView = exports.ES6ExampleView = (function (_DOMWidgetView) {
     _inherits(ES6ExampleView, _DOMWidgetView);
 
@@ -168,13 +176,6 @@ define(["exports", "jquery", "nbextensions/widgets/widgets/js/widget"], function
     }, {
       key: "update_button_style",
       value: function update_button_style(previous_trait_value) {
-        var class_map = {
-          primary: ["btn-primary"],
-          success: ["btn-success"],
-          info: ["btn-info"],
-          warning: ["btn-warning"],
-          danger: ["btn-danger"]
-        };
         this.update_mapped_classes(class_map, "button_style", previous_trait_value);
       }
 
@@ -197,10 +198,14 @@ define(["exports", "jquery", "nbextensions/widgets/widgets/js/widget"], function
     }, {
       key: "_handle_click",
       value: function _handle_click() {
+        console.info("CLICKED", this.model.get("foo").get("value"));
         this.send({ event: "click" });
       }
     }]);
 
     return ES6ExampleView;
   })(_widget.DOMWidgetView);
+
+  _manager.WidgetManager.register_widget_view("ES6ExampleView", ES6ExampleView);
 });
+//# sourceMappingURL=ES6ExampleView.js.map

@@ -1,5 +1,11 @@
 window.esdocSearchIndex = [
   [
+    "es6-widget-example/es6/es6examplemodel.es6~es6examplemodel",
+    "class/es6/ES6ExampleModel.es6~ES6ExampleModel.html",
+    "<span>ES6ExampleModel</span> <span class=\"search-result-import-path\">es6-widget-example/es6/ES6ExampleModel.es6</span>",
+    "class"
+  ],
+  [
     "es6-widget-example/es6/es6exampleview.es6~es6exampleview",
     "class/es6/ES6ExampleView.es6~ES6ExampleView.html",
     "<span>ES6ExampleView</span> <span class=\"search-result-import-path\">es6-widget-example/es6/ES6ExampleView.es6</span>",
@@ -382,11 +388,5 @@ window.esdocSearchIndex = [
     "class/es6/ES6ExampleView.es6~ES6ExampleView.html#instance-method-update_button_style",
     "es6/ES6ExampleView.es6~ES6ExampleView#update_button_style",
     "method"
-  ],
-  [
-    "es6/es6exampleview.es6~nbextensions/widgets/widgets/js/widget~domwidgetview",
-    "external/index.html",
-    "es6/ES6ExampleView.es6~nbextensions/widgets/widgets/js/widget~DOMWidgetView",
-    "external"
   ]
 ]

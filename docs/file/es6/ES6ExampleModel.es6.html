@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../">
-  <title data-ice="title">es6/ES6ExampleModel.es6 | API Document</title>
+  <title data-ice="title">es6/ES6ExampleModel.es6 | ES6 Widget Example API Document</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -19,7 +19,7 @@
   <a href="identifiers.html">Reference</a>
   <a href="source.html">Source</a>
   
-  
+  <a data-ice="repoURL" href="https://github.com/bollwyvl/es6-widget-example.git" class="repo-url-github">Repository</a>
   <div class="search-box">
   <span>
     <img src="./image/search.png">
@@ -32,14 +32,37 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
-  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/es6/ES6ExampleView.es6~ES6ExampleView.html">ES6ExampleView</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-external">E</span><span data-ice="name"><span><a href="https://github.com/ipython/ipywidgets/blob/master/ipywidgets/static/widgets/js/widget.js#L862">nbextensions/widgets/widgets/js/widget~DOMWidgetView</a></span></span></li>
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/es6/ES6ExampleModel.es6~ES6ExampleModel.html">ES6ExampleModel</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/es6/ES6ExampleView.es6~ES6ExampleView.html">ES6ExampleView</a></span></span></li>
 </ul>
 </div>
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">es6/ES6ExampleModel.es6</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import {DOMWidgetModel} from &quot;nbextensions/widgets/widgets/js/widget&quot;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import _ from &quot;underscore&quot;;
+import {WidgetModel, unpack_models} from &quot;nbextensions/widgets/widgets/js/widget&quot;;
+import {WidgetManager} from &quot;nbextensions/widgets/widgets/js/manager&quot;;
+
+
+/**
+  A small custom widget model to test some features
+ */
+export class ES6ExampleModel extends WidgetModel {
+
+}
+
+
+ES6ExampleModel.serializers = _.extend(
+  {
+    foo: {
+      deserialize: unpack_models
+    }
+  },
+  WidgetModel.serializers
+);
+
+
+WidgetManager.register_widget_model(&quot;ES6ExampleModel&quot;, ES6ExampleModel);
 </code></pre>
 
 </div>

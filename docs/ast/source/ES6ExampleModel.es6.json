@@ -5,55 +5,181 @@
       "type": "ImportDeclaration",
       "specifiers": [
         {
-          "type": "ImportSpecifier",
+          "type": "ImportDefaultSpecifier",
           "local": {
             "type": "Identifier",
-            "name": "DOMWidgetModel",
+            "name": "_",
             "range": [
-              8,
-              22
+              7,
+              8
             ],
             "loc": {
               "start": {
                 "line": 1,
-                "column": 8
+                "column": 7
               },
               "end": {
                 "line": 1,
-                "column": 22
+                "column": 8
+              }
+            }
+          },
+          "range": [
+            7,
+            8
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 7
+            },
+            "end": {
+              "line": 1,
+              "column": 8
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "underscore",
+        "raw": "\"underscore\"",
+        "range": [
+          14,
+          26
+        ],
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 14
+          },
+          "end": {
+            "line": 1,
+            "column": 26
+          }
+        }
+      },
+      "range": [
+        0,
+        27
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "WidgetModel",
+            "range": [
+              36,
+              47
+            ],
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 8
+              },
+              "end": {
+                "line": 2,
+                "column": 19
               }
             }
           },
           "imported": {
             "type": "Identifier",
-            "name": "DOMWidgetModel",
+            "name": "WidgetModel",
             "range": [
-              8,
-              22
+              36,
+              47
             ],
             "loc": {
               "start": {
-                "line": 1,
+                "line": 2,
                 "column": 8
               },
               "end": {
-                "line": 1,
-                "column": 22
+                "line": 2,
+                "column": 19
               }
             }
           },
           "range": [
-            8,
-            22
+            36,
+            47
           ],
           "loc": {
             "start": {
-              "line": 1,
+              "line": 2,
               "column": 8
             },
             "end": {
-              "line": 1,
-              "column": 22
+              "line": 2,
+              "column": 19
+            }
+          }
+        },
+        {
+          "type": "ImportSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "unpack_models",
+            "range": [
+              49,
+              62
+            ],
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 21
+              },
+              "end": {
+                "line": 2,
+                "column": 34
+              }
+            }
+          },
+          "imported": {
+            "type": "Identifier",
+            "name": "unpack_models",
+            "range": [
+              49,
+              62
+            ],
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 21
+              },
+              "end": {
+                "line": 2,
+                "column": 34
+              }
+            }
+          },
+          "range": [
+            49,
+            62
+          ],
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 34
             }
           }
         }
@@ -63,32 +189,751 @@
         "value": "nbextensions/widgets/widgets/js/widget",
         "raw": "\"nbextensions/widgets/widgets/js/widget\"",
         "range": [
-          29,
-          69
+          69,
+          109
         ],
         "loc": {
           "start": {
-            "line": 1,
-            "column": 29
+            "line": 2,
+            "column": 41
           },
           "end": {
-            "line": 1,
+            "line": 2,
+            "column": 81
+          }
+        }
+      },
+      "range": [
+        28,
+        110
+      ],
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 82
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "WidgetManager",
+            "range": [
+              119,
+              132
+            ],
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 8
+              },
+              "end": {
+                "line": 3,
+                "column": 21
+              }
+            }
+          },
+          "imported": {
+            "type": "Identifier",
+            "name": "WidgetManager",
+            "range": [
+              119,
+              132
+            ],
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 8
+              },
+              "end": {
+                "line": 3,
+                "column": 21
+              }
+            }
+          },
+          "range": [
+            119,
+            132
+          ],
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 8
+            },
+            "end": {
+              "line": 3,
+              "column": 21
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "nbextensions/widgets/widgets/js/manager",
+        "raw": "\"nbextensions/widgets/widgets/js/manager\"",
+        "range": [
+          139,
+          180
+        ],
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 28
+          },
+          "end": {
+            "line": 3,
             "column": 69
           }
         }
       },
       "range": [
-        0,
-        70
+        111,
+        181
       ],
       "loc": {
         "start": {
-          "line": 1,
+          "line": 3,
           "column": 0
         },
         "end": {
-          "line": 1,
+          "line": 3,
           "column": 70
+        }
+      },
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n  A small custom widget model to test some features\n ",
+          "range": [
+            184,
+            243
+          ],
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 0
+            },
+            "end": {
+              "line": 8,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "ClassDeclaration",
+        "id": {
+          "type": "Identifier",
+          "name": "ES6ExampleModel",
+          "range": [
+            257,
+            272
+          ],
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 13
+            },
+            "end": {
+              "line": 9,
+              "column": 28
+            }
+          }
+        },
+        "superClass": {
+          "type": "Identifier",
+          "name": "WidgetModel",
+          "range": [
+            281,
+            292
+          ],
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 37
+            },
+            "end": {
+              "line": 9,
+              "column": 48
+            }
+          }
+        },
+        "body": {
+          "type": "ClassBody",
+          "body": [],
+          "range": [
+            293,
+            297
+          ],
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 49
+            },
+            "end": {
+              "line": 11,
+              "column": 1
+            }
+          }
+        },
+        "range": [
+          251,
+          297
+        ],
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 7
+          },
+          "end": {
+            "line": 11,
+            "column": 1
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n  A small custom widget model to test some features\n ",
+            "range": [
+              184,
+              243
+            ],
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 0
+              },
+              "end": {
+                "line": 8,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        244,
+        297
+      ],
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 11,
+          "column": 1
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n  A small custom widget model to test some features\n ",
+          "range": [
+            184,
+            243
+          ],
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 0
+            },
+            "end": {
+              "line": 8,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "ES6ExampleModel",
+            "range": [
+              300,
+              315
+            ],
+            "loc": {
+              "start": {
+                "line": 14,
+                "column": 0
+              },
+              "end": {
+                "line": 14,
+                "column": 15
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "serializers",
+            "range": [
+              316,
+              327
+            ],
+            "loc": {
+              "start": {
+                "line": 14,
+                "column": 16
+              },
+              "end": {
+                "line": 14,
+                "column": 27
+              }
+            }
+          },
+          "range": [
+            300,
+            327
+          ],
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 0
+            },
+            "end": {
+              "line": 14,
+              "column": 27
+            }
+          }
+        },
+        "right": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "_",
+              "range": [
+                330,
+                331
+              ],
+              "loc": {
+                "start": {
+                  "line": 14,
+                  "column": 30
+                },
+                "end": {
+                  "line": 14,
+                  "column": 31
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "extend",
+              "range": [
+                332,
+                338
+              ],
+              "loc": {
+                "start": {
+                  "line": 14,
+                  "column": 32
+                },
+                "end": {
+                  "line": 14,
+                  "column": 38
+                }
+              }
+            },
+            "range": [
+              330,
+              338
+            ],
+            "loc": {
+              "start": {
+                "line": 14,
+                "column": 30
+              },
+              "end": {
+                "line": 14,
+                "column": 38
+              }
+            }
+          },
+          "arguments": [
+            {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "foo",
+                    "range": [
+                      348,
+                      351
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 16,
+                        "column": 4
+                      },
+                      "end": {
+                        "line": 16,
+                        "column": 7
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "ObjectExpression",
+                    "properties": [
+                      {
+                        "type": "Property",
+                        "key": {
+                          "type": "Identifier",
+                          "name": "deserialize",
+                          "range": [
+                            361,
+                            372
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 17,
+                              "column": 6
+                            },
+                            "end": {
+                              "line": 17,
+                              "column": 17
+                            }
+                          }
+                        },
+                        "value": {
+                          "type": "Identifier",
+                          "name": "unpack_models",
+                          "range": [
+                            374,
+                            387
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 17,
+                              "column": 19
+                            },
+                            "end": {
+                              "line": 17,
+                              "column": 32
+                            }
+                          }
+                        },
+                        "kind": "init",
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "range": [
+                          361,
+                          387
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 17,
+                            "column": 6
+                          },
+                          "end": {
+                            "line": 17,
+                            "column": 32
+                          }
+                        }
+                      }
+                    ],
+                    "range": [
+                      353,
+                      393
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 16,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 18,
+                        "column": 5
+                      }
+                    }
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "range": [
+                    348,
+                    393
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 16,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 18,
+                      "column": 5
+                    }
+                  }
+                }
+              ],
+              "range": [
+                342,
+                397
+              ],
+              "loc": {
+                "start": {
+                  "line": 15,
+                  "column": 2
+                },
+                "end": {
+                  "line": 19,
+                  "column": 3
+                }
+              }
+            },
+            {
+              "type": "MemberExpression",
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "name": "WidgetModel",
+                "range": [
+                  401,
+                  412
+                ],
+                "loc": {
+                  "start": {
+                    "line": 20,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 20,
+                    "column": 13
+                  }
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "serializers",
+                "range": [
+                  413,
+                  424
+                ],
+                "loc": {
+                  "start": {
+                    "line": 20,
+                    "column": 14
+                  },
+                  "end": {
+                    "line": 20,
+                    "column": 25
+                  }
+                }
+              },
+              "range": [
+                401,
+                424
+              ],
+              "loc": {
+                "start": {
+                  "line": 20,
+                  "column": 2
+                },
+                "end": {
+                  "line": 20,
+                  "column": 25
+                }
+              }
+            }
+          ],
+          "range": [
+            330,
+            426
+          ],
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 30
+            },
+            "end": {
+              "line": 21,
+              "column": 1
+            }
+          }
+        },
+        "range": [
+          300,
+          426
+        ],
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 0
+          },
+          "end": {
+            "line": 21,
+            "column": 1
+          }
+        }
+      },
+      "range": [
+        300,
+        427
+      ],
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 0
+        },
+        "end": {
+          "line": 21,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "WidgetManager",
+            "range": [
+              430,
+              443
+            ],
+            "loc": {
+              "start": {
+                "line": 24,
+                "column": 0
+              },
+              "end": {
+                "line": 24,
+                "column": 13
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "register_widget_model",
+            "range": [
+              444,
+              465
+            ],
+            "loc": {
+              "start": {
+                "line": 24,
+                "column": 14
+              },
+              "end": {
+                "line": 24,
+                "column": 35
+              }
+            }
+          },
+          "range": [
+            430,
+            465
+          ],
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 0
+            },
+            "end": {
+              "line": 24,
+              "column": 35
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "ES6ExampleModel",
+            "raw": "\"ES6ExampleModel\"",
+            "range": [
+              466,
+              483
+            ],
+            "loc": {
+              "start": {
+                "line": 24,
+                "column": 36
+              },
+              "end": {
+                "line": 24,
+                "column": 53
+              }
+            }
+          },
+          {
+            "type": "Identifier",
+            "name": "ES6ExampleModel",
+            "range": [
+              485,
+              500
+            ],
+            "loc": {
+              "start": {
+                "line": 24,
+                "column": 55
+              },
+              "end": {
+                "line": 24,
+                "column": 70
+              }
+            }
+          }
+        ],
+        "range": [
+          430,
+          501
+        ],
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 0
+          },
+          "end": {
+            "line": 24,
+            "column": 71
+          }
+        }
+      },
+      "range": [
+        430,
+        502
+      ],
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 0
+        },
+        "end": {
+          "line": 24,
+          "column": 72
         }
       }
     }
@@ -96,7 +941,7 @@
   "sourceType": "module",
   "range": [
     0,
-    70
+    502
   ],
   "loc": {
     "start": {
@@ -104,9 +949,28 @@
       "column": 0
     },
     "end": {
-      "line": 1,
-      "column": 70
+      "line": 24,
+      "column": 72
     }
   },
-  "comments": []
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\n  A small custom widget model to test some features\n ",
+      "range": [
+        184,
+        243
+      ],
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 3
+        }
+      }
+    }
+  ]
 }

@@ -1,8 +1,13 @@
 {
   "coverage": "100%",
-  "expectCount": 7,
-  "actualCount": 7,
+  "expectCount": 8,
+  "actualCount": 8,
   "files": {
+    "es6/ES6ExampleModel.es6": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
     "es6/ES6ExampleView.es6": {
       "expectCount": 7,
       "actualCount": 7,
