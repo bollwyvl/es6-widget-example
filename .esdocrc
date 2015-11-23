@@ -1,4 +1,5 @@
 {
   "source": "./src/es6",
-  "destination": "./es6widgetexample/static/docs"
+  "destination": "./es6widgetexample/static/docs",
+  "title": "ES6 Widget Example"
 }

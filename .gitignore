@@ -6,3 +6,5 @@ es6widgetexample/static/es6-widget-example/
 __pycache__
 dist/
 build/
+.xunit.xml
+npm-debug.log

@@ -1,9 +1,19 @@
 import $ from "jquery";
 
-/**
- * @external {nbextensions/widgets/widgets/js/widget~DOMWidgetView} https://github.com/ipython/ipywidgets/blob/master/ipywidgets/static/widgets/js/widget.js#L862
-*/
 import {DOMWidgetView} from "nbextensions/widgets/widgets/js/widget";
+import {WidgetManager} from "nbextensions/widgets/widgets/js/manager";
+
+
+/**
+ * A map of Bootstrap CSS classes keyed by their semantic name.
+ */
+let class_map = {
+  primary: ["btn-primary"],
+  success: ["btn-success"],
+  info: ["btn-info"],
+  warning: ["btn-warning"],
+  danger: ["btn-danger"]
+};
 
 
 /**
@@ -67,13 +77,6 @@ export class ES6ExampleView extends DOMWidgetView {
    * Set the [Bootstrap `btn-` semantic class](http://getbootstrap.com/css/#buttons-options).
    */
   update_button_style(previous_trait_value) {
-    let class_map = {
-      primary: ["btn-primary"],
-      success: ["btn-success"],
-      info: ["btn-info"],
-      warning: ["btn-warning"],
-      danger: ["btn-danger"]
-    };
     this.update_mapped_classes(class_map, "button_style", previous_trait_value);
   }
 
@@ -90,6 +93,10 @@ export class ES6ExampleView extends DOMWidgetView {
    * Handles when the button is clicked.
    */
   _handle_click() {
+    console.info("CLICKED", this.model.get("foo").get("value"));
     this.send({event: "click"});
   }
 }
+
+
+WidgetManager.register_widget_view("ES6ExampleView", ES6ExampleView);
